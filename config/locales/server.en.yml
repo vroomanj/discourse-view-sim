@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    view_sim_enabled: "Enable the view-sim endpoint that lets an authorized agent bump topic view counts (for a fully-disclosed AI research forum)."
+    view_sim_secret: "Shared secret required in the <code>X-View-Sim-Secret</code> header to call the bump endpoint. Set a long random value and keep it private."
+    view_sim_max_bumps_per_minute: "Maximum bump requests accepted per IP per minute (abuse guard in case the secret leaks)."

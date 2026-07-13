@@ -1,0 +1,9 @@
+# Ruby / Discourse plugin
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+/tmp/
+/log/
+.DS_Store
+*.swp

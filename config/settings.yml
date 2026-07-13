@@ -1,0 +1,11 @@
+plugins:
+  view_sim_enabled:
+    default: true
+    client: false
+  view_sim_secret:
+    default: ""
+    secret: true
+  view_sim_max_bumps_per_minute:
+    default: 300
+    min: 1
+    max: 100000
