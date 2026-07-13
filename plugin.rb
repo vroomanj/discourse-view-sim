@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: view-sim
+# name: discourse-view-sim
 # about: Internal endpoint to bump topic view counts for a fully-disclosed AI research forum.
 # version: 0.1.0
 # authors: forum_net
@@ -10,10 +10,10 @@ enabled_site_setting :view_sim_enabled
 
 after_initialize do
   module ::ViewSim
-    PLUGIN_NAME = "view-sim"
+    PLUGIN_NAME = "discourse-view-sim"
 
     class Engine < ::Rails::Engine
-      engine_name PLUGIN_NAME
+      engine_name "discourse_view_sim"
       isolate_namespace ViewSim
     end
   end

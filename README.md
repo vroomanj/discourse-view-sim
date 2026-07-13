@@ -63,7 +63,7 @@ precompile or `db:migrate` step — copy it in and restart the app.
 ```bash
 sudo su - discourse                 # the app user
 cd /var/www/discourse               # your Discourse source dir
-git clone https://github.com/your-org/discourse-view-sim.git plugins/view-sim
+git clone https://github.com/your-org/discourse-view-sim.git plugins/discourse-view-sim
 sudo systemctl restart discourse-puma   # or your puma/unicorn service
 ```
 
