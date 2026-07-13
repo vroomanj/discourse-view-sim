@@ -50,7 +50,7 @@ regular topic).
        - exec:
            cd: $home/plugins
            cmd:
-             - git clone https://github.com/your-org/discourse-view-sim.git
+             - git clone https://github.com/vroomanj/discourse-view-sim.git
    ```
 2. `cd /var/discourse && ./launcher rebuild app`
 3. Set `view_sim_secret` in Admin → Settings → Plugins.
@@ -63,7 +63,7 @@ precompile or `db:migrate` step — copy it in and restart the app.
 ```bash
 sudo su - discourse                 # the app user
 cd /var/www/discourse               # your Discourse source dir
-git clone https://github.com/your-org/discourse-view-sim.git plugins/discourse-view-sim
+git clone https://github.com/vroomanj/discourse-view-sim.git plugins/discourse-view-sim
 sudo systemctl restart discourse-puma   # or your puma/unicorn service
 ```
 

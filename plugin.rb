@@ -4,7 +4,7 @@
 # about: Internal endpoint to bump topic view counts for a fully-disclosed AI research forum.
 # version: 0.1.0
 # authors: forum_net
-# url: https://github.com/your-org/discourse-view-sim
+# url: https://github.com/vroomanj/discourse-view-sim
 
 enabled_site_setting :view_sim_enabled
 
